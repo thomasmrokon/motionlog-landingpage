@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" width="48" height="48" fill="none">
+  <!-- Customyze Geometric Studio Mark (mrokon.de palette) -->
+  <defs>
+    <linearGradient id="mrokon-accent" x1="18" y1="18" x2="34" y2="34" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#FDC5F6" />
+      <stop offset="100%" stop-color="#15FFBC" />
+    </linearGradient>
+  </defs>
+
+  <!-- Frame -->
+  <rect x="4" y="4" width="40" height="40" rx="4" fill="#2a2a2a" stroke="#333" stroke-width="1.5" />
+
+  <!-- Left curve / C-bracket -->
+  <path d="M 28 15 L 18 15 C 14.686 15 12 17.686 12 21 L 12 27 C 12 30.314 14.686 33 18 33 L 28 33" 
+        stroke="#cccccc" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Accent "Y" mark -->
+  <path d="M 22 20 L 28 26 L 34 20" 
+        stroke="url(#mrokon-accent)" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M 28 26 L 28 33" 
+        stroke="#15FFBC" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" />
+
+  <!-- Glowing accent pip -->
+  <circle cx="28" cy="26" r="1.5" fill="#FDC5F6" />
+</svg>
